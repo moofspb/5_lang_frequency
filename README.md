@@ -26,6 +26,6 @@ There are 10 most frequent words in the text:
 
 ```
 
-# Project Goals
+For help type:
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+`python lang_frequency.py --help`
