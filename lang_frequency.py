@@ -4,7 +4,7 @@ import argparse
 import collections
 
 
-NUMBER_OF_MOST_FREQUENT_WORDS = 10
+NUMBER_OF_WORDS = 10
 
 
 def load_data(filepath):
@@ -17,7 +17,7 @@ def load_data(filepath):
 def get_most_frequent_words(text):
     words = re.findall(r'[\w]+', text)
     counts = collections.Counter(words)
-    return counts.most_common(NUMBER_OF_MOST_FREQUENT_WORDS)
+    return counts.most_common(NUMBER_OF_WORDS)
 
 
 if __name__ == '__main__':
