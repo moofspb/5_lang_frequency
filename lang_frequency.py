@@ -25,8 +25,8 @@ if __name__ == '__main__':
                                                  'words in the text file')
     parser.add_argument('filepath', help='A path to a text file')
     args = parser.parse_args()
-    data = load_data(args.filepath)
-    most_frequent_words = get_most_frequent_words(data)
+    parsed_text = load_data(args.filepath)
+    most_frequent_words = get_most_frequent_words(parsed_text)
     print('There are 10 most frequent words in the text:')
     for word, count in most_frequent_words:
         print("'{}': {} times".format(word, count))
