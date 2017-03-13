@@ -1,16 +1,17 @@
 # Frequency Analysis of Words
 
-The python module takes a path to a text file and prints a list of 10 most frequent words in this text.
+The python module takes a path to a text file and prints a list
+of desired quantity of the most frequent words in this text.
 
 # Usage
 
-`python lang_frequency.py <path to a file>`
+`python lang_frequency.py <path to a file> <number_of_common_words>`
 
 For example:
 
 ```#!bash
 
-$ python lang_frequency.py war_and_peace.txt
+$ python lang_frequency.py war_and_peace.txt 10
 
 There are 10 most frequent words in the text:
 'the': 31954 times
